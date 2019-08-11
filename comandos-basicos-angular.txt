@@ -1,0 +1,13 @@
+Genera un nuevo proyecto con el angular cli
+	
+	ng new portafolio
+
+
+Posicionados en la carpeta del proyecto creado corremos el comando siguiente para correr el server de angular
+	
+	ng serve -o
+
+
+El siguiente comando genera componentes pero sin opción a crear pruebas unitarias con la bandera --spec=false
+	
+	ng generate c shared/header --spec=false
