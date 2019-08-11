@@ -8,11 +8,12 @@ Posicionados en la carpeta del proyecto creado corremos el comando siguiente par
 	ng serve -o
 
 
-El siguiente comando genera componentes pero sin opción a crear pruebas unitarias con la bandera --spec=false
+El siguiente comando genera componentes pero sin opciï¿½n a crear pruebas unitarias con la bandera --spec=false
 	
 	ng generate c shared/header --spec=false
 	ng generate c shared/footer --spec=false
 
-Con los siguientes comandos se generaron los componentes para las diversas páginas del portafolio
+Con los siguientes comandos se generaron los componentes para las diversas pï¿½ginas del portafolio
 
 	ng generate c pages/portafolio --spec=false
+	ng g c pages/about --spec=false
