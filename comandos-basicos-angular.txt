@@ -18,3 +18,7 @@ Con los siguientes comandos se generaron los componentes para las diversas p�g
 	ng generate c pages/portafolio --spec=false
 	ng g c pages/about --spec=false
 	ng g c pages/item --spec=false
+
+Con el siguiente comando se crean los servicios
+
+	ng g s services/infoPagina --spec=false
