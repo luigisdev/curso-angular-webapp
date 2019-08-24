@@ -22,3 +22,4 @@ Con los siguientes comandos se generaron los componentes para las diversas p�g
 Con el siguiente comando se crean los servicios
 
 	ng g s services/infoPagina --spec=false
+	ng g s services/productos --spec=false
