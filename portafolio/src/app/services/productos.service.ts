@@ -45,7 +45,7 @@ export class ProductosService {
 
     if ( this.productos.length === 0 ) {
       // cargar productos
-      this.cargarProductos().then( ()=> {
+      this.cargarProductos().then( () => {
         // ejecutar después de tener los productos cargados
         // aplcar filtro
         this.filtrarProductos( termino );
