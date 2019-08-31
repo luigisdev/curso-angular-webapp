@@ -10,7 +10,7 @@ import { ProductosService } from '../../services/productos.service';
 export class SearchComponent implements OnInit {
 
   constructor( private route: ActivatedRoute,
-               private productoService: ProductosService) { }
+               public productoService: ProductosService) { }
 
   ngOnInit() {
     // Realizacion de la lectura de los parámetros

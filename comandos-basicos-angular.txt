@@ -24,3 +24,11 @@ Con el siguiente comando se crean los servicios
 
 	ng g s services/infoPagina --spec=false
 	ng g s services/productos --spec=false
+
+Comando para crear los archivos para pre produccion
+	ng build --prod
+
+Despues de instalar http-server con el siguiente comando se corre el servidor, desde la carpeta
+dist/portafolio
+
+	http-server -o
