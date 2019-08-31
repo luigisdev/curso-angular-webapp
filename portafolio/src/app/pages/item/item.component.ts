@@ -21,12 +21,12 @@ export class ItemComponent implements OnInit {
       // También funciona de la siguiente manera como se muestra en el Video
       // pero la corrección del editor me gusta como quedó
       // console.log(parametros['id']);
-      console.log(parametros.id);
+      // console.log(parametros.id);
 
       this.productoService.getProducto(parametros.id).subscribe( (producto: ProductoDescripcion) => {
         this.id = parametros.id;
         this.producto = producto;
-        console.log(producto);
+        // console.log(producto);
       });
     });
   }
